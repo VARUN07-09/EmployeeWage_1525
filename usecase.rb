@@ -9,3 +9,10 @@ end
 
 puts c
 
+salary =0
+working_hours= 8
+salary_per_hour= 20
+if c == "PRESENT"
+  salary= working_hours * salary_per_hour
+end
+puts "EMPLOYEES DAILY SALARY IS : #{salary}"
