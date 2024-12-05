@@ -9,10 +9,20 @@ end
 
 puts c
 
+fullday_hours = 8
+halfday_hours = 4
+salaryperhour = 20
 salary =0
-working_hours= 8
-salary_per_hour= 20
 if c == "PRESENT"
-  salary= working_hours * salary_per_hour
+  time= rand(2)
+  if time == 0
+    
+    salary =salaryperhour * halfday_hours
+    puts "HALF DAY"
+  elsif 
+    salary=salaryperhour * fullday_hours
+    puts "FULL DAY"
+    
+  end
 end
 puts "EMPLOYEES DAILY SALARY IS : #{salary}"
